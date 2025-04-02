@@ -1,6 +1,6 @@
 Package: twc
 Title: Terrestrial Water Cycle
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: 
   c(person(given = "Mijael Rodrigo", family = "Vargas Godoy",
            email = "mirovago@gmail.com", role = c("aut", "cre"),
@@ -15,7 +15,7 @@ License: GPL-3
 Encoding: UTF-8
 RoxygenNote: 7.3.2
 Imports: data.table, doParallel, foreach, lubridate, magrittr, methods,
-        ncdf4, parallel, raster, sf, sp,utils
+        ncdf4, parallel, raster, sf, sp, stats, utils
 URL: https://github.com/imarkonis/twc
 BugReports: https://github.com/imarkonis/twc/issues
 SystemRequirements: PROJ (>= 6, https://proj.org/download.html), GDAL
@@ -24,10 +24,10 @@ SystemRequirements: PROJ (>= 6, https://proj.org/download.html), GDAL
 Suggests: testthat (>= 3.0.0)
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2024-11-29 15:53:34 UTC; mirovago
+Packaged: 2025-04-02 14:24:21 UTC; mirovago
 Author: Mijael Rodrigo Vargas Godoy [aut, cre]
     (<https://orcid.org/0000-0002-1828-9266>),
   Yannis Markonis [aut] (<https://orcid.org/0000-0003-0144-8969>)
 Maintainer: Mijael Rodrigo Vargas Godoy <mirovago@gmail.com>
 Repository: CRAN
-Date/Publication: 2024-12-02 12:40:31 UTC
+Date/Publication: 2025-04-02 15:50:02 UTC

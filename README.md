@@ -1,4 +1,4 @@
-## What is `pRecipe`?
+## What is `twc`?
 
 An open-access tool/framework that constitutes the core functions to analyze terrestrial water cycle data across various spatio-temporal scales.
 
